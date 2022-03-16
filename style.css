@@ -1,0 +1,130 @@
+/*Nav*/
+nav .navbar-brand,
+nav ul li a{
+    color: #f9e1e1 !important;
+}
+
+/*Home*/
+#home{
+    background: url('images/bg1.png'); 
+  
+background-size: 100%;
+}
+
+#home img{
+    width: 450px;
+}
+
+#home mark{
+    background: #c0f6d9;
+}
+
+#home img{
+    /*transform: translate(23%, 26%);*/
+    padding-top: 100px;
+}
+
+
+#home .b1{
+    background: #ffba00;
+    border: 2px solid #111;
+}
+
+#home p{
+    font-size: 22px;
+}
+
+#home-1{
+    background: url('images/bg2.png');
+    background-size: 100% !important;
+}
+
+/*About*/
+#about{
+    background: url('images/bg3.png') no-repeat;
+    background-size: 100%;
+}
+
+#about img{
+    width: 700px;
+}
+
+#about mark{
+    background: #fff59f;
+}
+
+/*Services*/
+
+#services{
+    background: url('images/bg4.png');
+    background-size: 100%r;
+}
+
+#services h2 span{
+    background: #fff59f;
+}
+
+#services p,
+#services-1 p{
+    text-align: justify;
+}
+
+#services-1{
+    background: url('images/bg5.png');
+    background-size: 100%;
+}
+
+#services-1 h2 span{
+    background: #c0f6d9;
+}
+
+@media (min-width: 960px){
+   #services-1 .row-2{
+        padding-top: 7rem;
+    }
+}
+
+@media (min-width: 720px){
+    #services-1 .row-2{
+         padding-top: 4rem;
+     }
+ }
+
+/*Contact*/
+#contact{
+    background: url('images/bg6.png');
+    background-size: 100%;
+}
+
+#contact h4{
+    background: #fff59f
+}
+
+#contact-1{
+    background: url('images/bg7.png');
+    background-size: 100%;
+}
+
+/*Sign In*/
+#sign-in{
+    background: url('images/bg8.png');
+    background-size: 100%;
+}
+
+#sign-in .btn{
+    background: #e16d6d;
+    border: 2px solid #111;
+}
+
+footer{
+    background: #333333;
+}
+
+footer h3,
+footer .icons{
+    color: #61c0b2;
+}
+
+footer ul li{
+    font-weight: 500;
+}
